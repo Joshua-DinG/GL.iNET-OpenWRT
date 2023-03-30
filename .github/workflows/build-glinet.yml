@@ -9,13 +9,48 @@ on:
         default: 'target_wlan_ap-gl-ax1800' 
         type: choice
         options:
-        - target_wlan_ap-gl-ax1800
-        - target_wlan_ap-gl-axt1800
-        - target_wlan_ap-gl-ax1800-5-4
-        - target_wlan_ap-gl-axt1800-5-4
-        - target_ipq40xx_gl-a1300
-        - target_mt7981_gl-mt2500
-        - target_mt7981_gl-mt3000
+          - target_x86-64
+          - target_wlan_ap-gl-ax1800
+          - target_wlan_ap-gl-axt1800
+          - target_wlan_ap-gl-axt1800-5-4
+          - target_wlan_ap-gl-ax1800-5-4
+          - target_ipq40xx_gl-a1300
+          - target_mt7981_gl-mt2500
+          - target_mt7981_gl-mt3000
+          - target_ath79_gl-ar150
+          - target_ath79_gl-ar300m-lite
+          - target_ath79_gl-ar300m-nand
+          - target_ath79_gl-ar750
+          - target_ath79_gl-ar750s
+          - target_ath79_gl-e750
+          - target_ath79_gl-mifi
+          - target_ath79_gl-s200
+          - target_ath79_gl-x300b-nor-nand
+          - target_ath79_gl-x300b-nor
+          - target_ath79_gl-x300b
+          - target_ath79_gl-x750-nor
+          - target_ath79_gl-x750
+          - target_ipq40xx_gl-ap1300
+          - target_ipq40xx_gl-b1300
+          - target_ipq40xx_gl-b1300th
+          - target_ipq40xx_gl-s1300-emmc
+          - target_ipq40xx_gl-s1300
+          - target_mt7981_gl-x3000
+          - target_mt7981_gl-xe3000
+          - target_mvebu_gl-mv1000
+          - target_qsdk11_5_gl-ax1800
+          - target_qsdk11_5_gl-axt1800
+          - target_qsdk11_gl-s1300
+          - target_qsdk53_gl-s1300
+          - target_ramips_gl-mt1300
+          - target_ramips_gl-mt300n-v2
+          - target_ramips_microuter-n300
+          - target_ramips_vixmini
+          - target_rockchip_r2s
+          - target_siflower_gl-sf1200
+          - target_siflower_gl-sft1200
+          - target_wlan_ap-gl-ax1800-common-5-4
+          - target_wlan_ap-gl-ax1800-common
         
       ui:
         description: '是否包含官方UI'
